@@ -1,0 +1,71 @@
+.fieldLabel {
+    float: left;
+    width: 120px;
+}
+
+.fieldControl {
+    float: left;
+    width: 100px;
+}
+
+.left {
+    text-align: left;
+    margin-right: 10px;
+}
+
+.right {
+    text-align: right;
+    margin-left: 10px;
+}
+
+.section {
+    overflow: hidden;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #fff;
+    top: 1px;
+    position: relative;
+    width: 700px;
+}
+
+.section-header {
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #ccc;
+    padding-bottom: 12px;
+    background-color: #dedede;
+    text-align: left;
+}
+
+.section-header .title {
+    margin-left: 40px;
+}
+
+.section-header .fold {
+    text-align: right;
+}
+
+.section-body {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+}
+
+.section-savebutton {
+    margin-top: 40px;
+}
+    
+

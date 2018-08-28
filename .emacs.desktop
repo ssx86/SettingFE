@@ -1,0 +1,153 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Aug 22 12:16:01 2018
+;; Desktop file format version 208
+;; Emacs version 26.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23420 58241 21981 395000) (desktop . "208") "zhangss@zhangsongshi-laptop" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#eaeaea") (cursor-color . "#d54e53") (tool-bar-lines . 0) (vertical-scroll-bars) (menu-bar-lines . 0) (background-color . "#000000") (border-color . "#424242") (font . "tty") (height . 33) (width . 136) (modeline . t) (unsplittable) (internal-border-width . 0) (frameset--id . "A032-84E9-B65E-6FAB") (frameset--mini t)) ((min-height . 8) (min-width . 36) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 8) (min-pixel-width . 36) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 2) (min-pixel-width-safe . 4)) hc (pixel-width . 136) (pixel-height . 32) (total-width . 136) (total-height . 32) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 26) (pixel-height . 32) (total-width . 26) (total-height . 32) (normal-height . 1.0) (normal-width . 0.19117647058823528) (parameters (window-side . left) (window-slot . 0)) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 108) (start . 1))) (vc (last . t) (pixel-width . 110) (pixel-height . 32) (total-width . 110) (total-height . 32) (normal-height . 1.0) (normal-width . 0.8088235294117647) (combination-limit . t) (leaf (pixel-width . 110) (pixel-height . 16) (total-width . 110) (total-height . 16) (normal-height . 0.5) (normal-width . 1.0) (buffer "LeftBar.js" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 152) (start . 1))) (leaf (last . t) (pixel-width . 110) (pixel-height . 16) (total-width . 110) (total-height . 16) (normal-height . 0.5) (normal-width . 1.0) (buffer "LeftBar.css" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))))])
+(setq comint-input-ring nil)
+(setq desktop-missing-file-warning nil)
+(setq extended-command-history '("neotree" "package-install"))
+(setq face-name-history nil)
+(setq file-name-history '("~/meiqia/demos/setting" "~/meiqia/demos/setting/src/components/LeftBar.css" "~/meiqia/demos/setting/src/registerServiceWorker.js" "~/meiqia/demos/setting/src/App.test.js" "~/meiqia/demos/setting/src/components/LeftBar.js" "~/meiqia/demos/setting/src/index.js" "~/meiqia/demos/setting/src/components/leftBar/index.js" "~/meiqia/demos/setting/src/components/leftBar/" "~/meiqia/demos/setting/src/components/leftBar/index.js" "~/meiqia/demos/setting/src/App.js" "~/meiqia/demos/setting/src/index.css" "~/meiqia/demos/setting/src/App.css" "~/meiqia/demos/SettingDemo" "~/.emacs.d/elpa-26.1/neotree-20180616.1603/neotree-autoloads.el" "~/.emacs.d/custom.el" "~/meiqia/demos/setting/" "~/Documents/vpn.conf" "/home/zhangss/meiqia/demos/setting/readme"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history nil)
+(setq ido-last-directory-list nil)
+(setq ido-work-directory-list nil)
+(setq ido-work-file-list nil)
+(setq minibuffer-history '("neotree"))
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/LeftBar.css"
+  "LeftBar.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 58232 713563 335000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/LeftBar.js"
+  "LeftBar.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  152
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 58232 713563 248000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/App.js"
+  "App.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  463
+  '(360 nil)
+  nil
+  nil
+  '((buffer-display-time 23420 58095 41292 14000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/index.js"
+  "index.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  84
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 58089 52916 45000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/registerServiceWorker.js"
+  "registerServiceWorker.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  3794
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 57964 597879 526000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/App.test.js"
+  "App.test.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 57938 188053 849000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/leftBar/index.js"
+  "index.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 57627 19013 819000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/leftBar/"
+  "leftBar"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 56952 38525 362000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/App.css"
+  "App.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  170
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 56564 189059 638000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/index.css"
+  "index.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 56559 295859 148000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+

@@ -1,0 +1,155 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Aug 22 13:24:31 2018
+;; Desktop file format version 208
+;; Emacs version 26.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23420 62351 411269 463000) (desktop . "208") "zhangss@zhangsongshi-laptop" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "black") (border-color . "#424242") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (sticky) (environment) (frameset--id . "CF8B-935F-4F44-160E") (frameset--mini t . t) (height . 56) (width . 211) (modeline . t) (unsplittable) (left + -1) (top . 866) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 37) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 333) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1920) (pixel-height . 998) (total-width . 213) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 243) (pixel-height . 998) (total-width . 27) (total-height . 55) (normal-height . 1.0) (normal-width . 0.125) (parameters (window-side . left) (window-slot . 0)) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 118) (start . 1))) (leaf (last . t) (pixel-width . 1677) (pixel-height . 998) (total-width . 186) (total-height . 55) (normal-height . 1.0) (normal-width . 0.875) (buffer "Panel.css" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("jsx-mode" "package-install" "neotree" "package-install"))
+(setq face-name-history nil)
+(setq file-name-history '("~/meiqia/demos/setting/src/components/" "~/meiqia/demos/setting/src/components/Panel.js" "~/meiqia/demos/setting/src/components/Panel.css" "~/meiqia/demos/setting/src/components/SettingPanel.js" "~/meiqia/demos/setting/src/components/Setting.js" "~/meiqia/demos/setting/src/App.css" "~/meiqia/demos/setting/src/App.js" "~/.emacs.d/elpa-26.1/jsx-mode-20130908.1724/jsx-mode-autoloads.el" "~/.emacs.d/custom.el" "~/meiqia/demos/setting/src/index.css" "~/meiqia/demos/setting/src/index.js" "~/meiqia/demos/setting/src/components/LeftBar.css" "~/meiqia/demos/setting/src/components/LeftBar.js" "~/meiqia/demos/setting/src/components/LeftBar.css" "~/meiqia/demos/setting/src/registerServiceWorker.js" "~/meiqia/demos/setting/src/App.test.js" "~/meiqia/demos/setting/src/components/LeftBar.js" "~/meiqia/demos/setting/src/index.js" "~/meiqia/demos/setting/src/components/leftBar/index.js" "~/meiqia/demos/setting/src/components/leftBar/" "~/meiqia/demos/setting/src/App.js" "~/meiqia/demos/setting/src/index.css" "~/meiqia/demos/setting/src/App.css" "~/meiqia/demos/SettingDemo" "~/.emacs.d/elpa-26.1/neotree-20180616.1603/neotree-autoloads.el" "~/.emacs.d/custom.el" "~/meiqia/demos/setting/" "~/Documents/vpn.conf" "/home/zhangss/meiqia/demos/setting/readme"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history nil)
+(setq ido-last-directory-list nil)
+(setq ido-work-directory-list nil)
+(setq ido-work-file-list nil)
+(setq minibuffer-history '("jsx-mode" "neotree"))
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/Panel.css"
+  "Panel.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62351 165541 238000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/Panel.js"
+  "Panel.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62345 478624 990000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/SettingPanel.js"
+  "SettingPanel.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  59
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62271 863721 786000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/Setting.js"
+  "Setting.js"
+  'jsx-mode
+  nil
+  359
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62175 882569 633000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/LeftBar.js"
+  "LeftBar.js"
+  'jsx-mode
+  nil
+  165
+  '(722 nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62165 113410 467000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 722 334 722 420 722 659 598 548 539 498 440 438 421 331 331))))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/App.js"
+  "App.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  422
+  '(360 nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62074 525062 404000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (426 425))))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/index.js"
+  "index.js"
+  'js2-mode
+  '(inferior-js-keys-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 62070 938268 90000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/App.css"
+  "App.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  170
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 61938 978325 227000) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/components/LeftBar.css"
+  "LeftBar.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  56
+  '(56 nil)
+  nil
+  nil
+  '((buffer-display-time 23420 61937 950091 177000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (56))))
+
+(desktop-create-buffer 208
+  "/home/zhangss/meiqia/demos/setting/src/index.css"
+  "index.css"
+  'css-mode
+  '(eldoc-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode skewer-css-mode rainbow-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23420 58278 763390 952000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+

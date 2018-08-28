@@ -1,0 +1,11 @@
+.leftBar {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menuTree {
+    float: left;
+    padding-left: 10px;
+}

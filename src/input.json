@@ -1,0 +1,44 @@
+[
+  {
+    "title": "平台设置",
+    "key": "1",
+    "children": [
+      {
+        "title": "用户管理",
+        "key": "user",
+        "sections": [
+          {
+            "type": "list",
+            "objectName": "Test",
+            "title": "和和",
+            "icon": "",
+            "action": "onTest"
+          }
+        ]
+      },
+      {
+        "title": "对象管理",
+        "key": "object"
+      },
+      {
+        "title": "区域语言",
+        "key": "i18n"
+      }
+
+    ]
+  },
+  {
+    "title": "租户设置",
+    "key": "2",
+    "children": [
+      {
+        "title": "归因模型",
+        "key": "mode"
+      },
+      {
+        "title": "定时通知",
+        "key": "notification"
+      }
+    ]
+  }
+]
