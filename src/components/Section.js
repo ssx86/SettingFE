@@ -12,8 +12,15 @@ class Section extends Component {
 
   constructor(props) {
     super(props);
+    this.state = { show_body: false };
   }
 
+  foldSwtich = () => {
+    this.setState( (pre, props) => ({
+      show_body: !pre.show_body
+    }));
+  }
+    
 
   generateSection = (mode) => {
     if (mode == 'List') {
@@ -41,16 +48,25 @@ class Section extends Component {
         <div className="section">
         
         <div className="section-header" >
-        <div className="title" style={{width: "50%"}} ><p>{data.title + ":"}</p></div>
+        <table style={{width: "100%"}} >
+        <tr>
+        <td className="title" ><p>{data.title + ":"}</p> </td>
+        <td className="actions"> <a href="#" onClick={this.foldSwtich}>展开/折叠</a> </td>
+        </tr>
+        </table>
         </div>
-
-        <div className="section-body">
         {
-          this.generateSection(data.mode)
+          this.state.show_body &&
+            (
+                <div className="section-body">
+                {
+                  this.generateSection(data.mode)
+                }
+                <input className="section-savebutton" type="button" value="保存设置" />
+                </div>
+            )
         }
-        <input className="section-savebutton" type="button" value="保存设置" />
-        </div>
-
+        
       </div>
     );
   }

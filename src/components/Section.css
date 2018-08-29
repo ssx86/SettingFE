@@ -44,11 +44,13 @@
 }
 
 .section-header .title {
-    margin-left: 40px;
+    padding-left: 20px;
 }
 
-.section-header .fold {
+
+.section-header .actions {
     text-align: right;
+    padding-right: 20px;
 }
 
 .section-body {
